@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+#cellcontainer {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	width: 400px;
+	margin: auto;
+}
+#gamecontainer {
+      display :flex;
+      flex-direction: column;
+}
+#top{
+      text-align: center;
+	font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 80px;
+}
+.cell {
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+	box-shadow: 10px 10px 5px 5px;
+	font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 80px;
+	text-align: center;
+}
+#b1 {
+	font-size: 30px;
+	border: 0;
+	background-color: grey;
+	color: white;
+	padding: 10px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+#status {
+	font-family: Roboto;
+      font-size:60px;
+      text-align: center;
+      margin :30px;
+}
